@@ -1,0 +1,544 @@
+2014/02/26 06:21:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\TrackStar\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/trackstar/index.php?r=project/admin
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2014/02/28 06:44:07 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php:194)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterAccessControl()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): IssueController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): IssueController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\TrackStar\index.php(13): CWebApplication->run()
+REQUEST_URI=/trackstar/index.php?r=issue/create
+in C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php (194)
+in C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php (218)
+in C:\xampp\htdocs\TrackStar\index.php (13)
+2014/02/28 06:46:07 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php:194)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterAccessControl()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): IssueController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): IssueController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\TrackStar\index.php(13): CWebApplication->run()
+REQUEST_URI=/trackstar/index.php?r=issue/create
+in C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php (194)
+in C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php (218)
+in C:\xampp\htdocs\TrackStar\index.php (13)
+2014/02/28 06:46:15 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php:194)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterAccessControl()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): IssueController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): IssueController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\TrackStar\index.php(13): CWebApplication->run()
+REQUEST_URI=/trackstar/index.php?r=issue/create
+in C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php (194)
+in C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php (218)
+in C:\xampp\htdocs\TrackStar\index.php (13)
+2014/02/28 06:51:17 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php:196)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterAccessControl()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): IssueController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): IssueController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\TrackStar\index.php(13): CWebApplication->run()
+REQUEST_URI=/trackstar/index.php?r=issue/create
+in C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php (196)
+in C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php (223)
+in C:\xampp\htdocs\TrackStar\index.php (13)
+2014/02/28 06:52:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist.' in C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php:206
+Stack trace:
+#0 C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php(229): IssueController->loadProject(NULL)
+#1 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\TrackStar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/create
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue
+---
+2014/02/28 06:53:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The request project do not exist.' in C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php:198
+Stack trace:
+#0 C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php(229): IssueController->loadProject(NULL)
+#1 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\TrackStar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/create
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue
+---
+2014/02/28 06:53:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist.' in C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php:198
+Stack trace:
+#0 C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php(221): IssueController->loadProject(NULL)
+#1 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\TrackStar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/create
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue
+---
+2014/02/28 06:54:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist.' in C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php:198
+Stack trace:
+#0 C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php(221): IssueController->loadProject(NULL)
+#1 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\TrackStar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/create
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue
+---
+2014/02/28 06:56:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist.' in C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php:198
+Stack trace:
+#0 C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php(221): IssueController->loadProject(NULL)
+#1 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\TrackStar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/create
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue
+---
+2014/03/01 07:39:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist.' in C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php:198
+Stack trace:
+#0 C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php(221): IssueController->loadProject(NULL)
+#1 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\TrackStar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/create
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue/admin
+---
+2014/03/12 19:46:42 [error] [php] Missing argument 1 for ProjectController::loadModel(), called in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php on line 57 and defined (C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php:164)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ProjectController->run()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\TrackStar\index.php(13): CWebApplication->run()
+REQUEST_URI=/trackstar/index.php?r=project/view&id=1
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (164)
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (57)
+in C:\xampp\htdocs\TrackStar\index.php (13)
+2014/03/12 19:47:55 [error] [php] Object of class Project could not be converted to string (C:\xampp\htdocs\yii\framework\db\CDbCommand.php:274)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(177): CMysqlCommandBuilder->bindValues()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1546): CMysqlCommandBuilder->createCountCommand()
+#2 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(179): Issue->count()
+#3 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(129): CActiveDataProvider->getTotalItemCount()
+#5 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(107): CActiveDataProvider->getData()
+#7 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(203): CListView->init()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CListView->init()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): ProjectController->createWidget()
+#10 C:\xampp\htdocs\TrackStar\protected\views\project\view.php(39): ProjectController->widget()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): ProjectController->renderInternal()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(869): ProjectController->renderFile()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(782): ProjectController->renderPartial()
+#15 C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php(67): ProjectController->render()
+#16 unknown(0): ProjectController->actionView()
+#17 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#18 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#21 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#23 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#24 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#25 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#26 C:\xampp\htdocs\yii\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#27 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ProjectController->run()
+#28 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#29 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#30 C:\xampp\htdocs\TrackStar\index.php(13): CWebApplication->run()
+REQUEST_URI=/trackstar/index.php?r=project/view&id=1
+in C:\xampp\htdocs\TrackStar\protected\views\project\view.php (39)
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (67)
+in C:\xampp\htdocs\TrackStar\index.php (13)
+2014/03/12 19:55:49 [error] [php] Missing argument 1 for ProjectController::loadModel(), called in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php on line 57 and defined (C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php:164)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ProjectController->run()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\TrackStar\index.php(13): CWebApplication->run()
+REQUEST_URI=/trackstar/index.php?r=project/view&id=1
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (164)
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (57)
+in C:\xampp\htdocs\TrackStar\index.php (13)
+2014/03/12 19:56:30 [error] [php] Missing argument 1 for ProjectController::loadModel(), called in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php on line 57 and defined (C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php:164)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ProjectController->run()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\TrackStar\index.php(13): CWebApplication->run()
+REQUEST_URI=/trackstar/index.php?r=project/view&id=1
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (164)
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (57)
+in C:\xampp\htdocs\TrackStar\index.php (13)
+2014/03/12 19:56:36 [error] [php] Missing argument 1 for ProjectController::loadModel(), called in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php on line 57 and defined (C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php:164)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ProjectController->run()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\TrackStar\index.php(13): CWebApplication->run()
+REQUEST_URI=/trackstar/index.php?r=project/view&id=1
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (164)
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (57)
+in C:\xampp\htdocs\TrackStar\index.php (13)
+2014/03/12 19:56:38 [error] [php] Missing argument 1 for ProjectController::loadModel(), called in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php on line 57 and defined (C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php:164)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ProjectController->run()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\TrackStar\index.php(13): CWebApplication->run()
+REQUEST_URI=/trackstar/index.php?r=project/view&id=1
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (164)
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (57)
+in C:\xampp\htdocs\TrackStar\index.php (13)
+2014/03/12 19:58:01 [error] [php] Missing argument 1 for ProjectController::loadModel(), called in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php on line 57 and defined (C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php:164)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ProjectController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\TrackStar\index.php(13): CWebApplication->run()
+REQUEST_URI=/trackstar/index.php?r=project/view&id=1
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (164)
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (57)
+in C:\xampp\htdocs\TrackStar\index.php (13)
+2014/03/12 19:58:03 [error] [php] Missing argument 1 for ProjectController::loadModel(), called in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php on line 57 and defined (C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php:164)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ProjectController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\TrackStar\index.php(13): CWebApplication->run()
+REQUEST_URI=/trackstar/index.php?r=project/view&id=1
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (164)
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (57)
+in C:\xampp\htdocs\TrackStar\index.php (13)
+2014/03/12 19:58:05 [error] [php] Missing argument 1 for ProjectController::loadModel(), called in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php on line 57 and defined (C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php:164)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ProjectController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\TrackStar\index.php(13): CWebApplication->run()
+REQUEST_URI=/trackstar/index.php?r=project/view&id=1
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (164)
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (57)
+in C:\xampp\htdocs\TrackStar\index.php (13)
+2014/03/12 19:59:52 [error] [php] Missing argument 1 for ProjectController::loadModel(), called in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php on line 75 and defined (C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php:181)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ProjectController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\TrackStar\index.php(13): CWebApplication->run()
+REQUEST_URI=/trackstar/index.php?r=project/view&id=1
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (181)
+in C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php (75)
+in C:\xampp\htdocs\TrackStar\index.php (13)
+2014/03/12 20:13:35 [error] [exception.CException] exception 'CException' with message 'Issue and its behaviors do not have a method or closure named "getAttibuteLabel".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(225): CComponent->__call('getAttibuteLabe...', Array)
+#1 C:\xampp\htdocs\TrackStar\protected\views\issue\_view.php(13): CActiveRecord->__call('getAttibuteLabe...', Array)
+#2 C:\xampp\htdocs\TrackStar\protected\views\issue\_view.php(13): Issue->getAttibuteLabel('description')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(130): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, false)
+#5 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(281): CBaseController->renderFile('C:\xampp\htdocs...', Array)
+#6 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(160): CListView->renderItems()
+#7 [internal function]: CBaseListView->renderSection(Array)
+#8 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#9 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(128): CBaseListView->renderContent()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#11 C:\xampp\htdocs\TrackStar\protected\views\issue\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#16 C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php(140): CController->render('index', Array)
+#17 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): IssueController->actionIndex()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#27 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/index')
+#28 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#29 C:\xampp\htdocs\TrackStar\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/index
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue/view&id=1
+---
+2014/03/12 20:13:57 [error] [exception.CException] exception 'CException' with message 'Issue and its behaviors do not have a method or closure named "getAttibuteLabel".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(225): CComponent->__call('getAttibuteLabe...', Array)
+#1 C:\xampp\htdocs\TrackStar\protected\views\issue\_view.php(13): CActiveRecord->__call('getAttibuteLabe...', Array)
+#2 C:\xampp\htdocs\TrackStar\protected\views\issue\_view.php(13): Issue->getAttibuteLabel('description')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(130): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, false)
+#5 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(281): CBaseController->renderFile('C:\xampp\htdocs...', Array)
+#6 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(160): CListView->renderItems()
+#7 [internal function]: CBaseListView->renderSection(Array)
+#8 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#9 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(128): CBaseListView->renderContent()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#11 C:\xampp\htdocs\TrackStar\protected\views\project\view.php(39): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#16 C:\xampp\htdocs\TrackStar\protected\controllers\ProjectController.php(84): CController->render('view', Array)
+#17 [internal function]: ProjectController->actionView('1')
+#18 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#19 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#21 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#22 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#24 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#25 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#26 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#27 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#29 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/view')
+#30 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#31 C:\xampp\htdocs\TrackStar\index.php(13): CApplication->run()
+#32 {main}
+REQUEST_URI=/trackstar/index.php?r=project/view&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project
+---
+2014/03/16 06:33:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist.' in C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php:206
+Stack trace:
+#0 C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php(229): IssueController->loadProject(NULL)
+#1 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/index')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\TrackStar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/index
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue/view&id=1
+---
+2014/03/16 06:39:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist.' in C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php:206
+Stack trace:
+#0 C:\xampp\htdocs\TrackStar\protected\controllers\IssueController.php(229): IssueController->loadProject(NULL)
+#1 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\TrackStar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/create
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue/admin&pid=1
+---
+2014/04/27 02:41:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\TrackStar\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/trackstar/index.php?r=user
+---
+2014/04/30 08:23:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\TrackStar\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/TrackStar/index.php?r=user
+---
+2014/04/30 08:24:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\TrackStar\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/TrackStar/index.php?r=users
+---
