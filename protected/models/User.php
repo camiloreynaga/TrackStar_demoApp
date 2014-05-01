@@ -69,6 +69,7 @@ class User extends CActiveRecord
 			'issues1' => array(self::HAS_MANY, 'Issue', 'requester_id'),
 			'tblProjects' => array(self::MANY_MANY, 'Project', 'tbl_project_user_assignment(user_id, project_id)'),
 		);
+                
 	}
 
 	/**
@@ -86,6 +87,7 @@ class User extends CActiveRecord
 			'create_user_id' => 'Create User',
 			'update_time' => 'Update Time',
 			'update_user_id' => 'Update User',
+                       
 		);
 	}
 
@@ -97,7 +99,7 @@ class User extends CActiveRecord
 	{
 		// Warning: Please modify the following code to remove attributes that
 		// should not be searched.
-
+                
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
