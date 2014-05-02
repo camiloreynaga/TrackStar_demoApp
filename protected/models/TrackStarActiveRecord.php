@@ -14,7 +14,7 @@ abstract class TrackStarActiveRecord extends CActiveRecord
         if($this->isNewRecord)
         {
             //set the created date, last update date and the usser doing  the creacting
-            $this->create_time= $this->update_time=new CDbException('NOW()');
+            $this->create_time= $this->update_time= date('Y-m-d H:i:s',time());// new CDbException('NOW()');
             $this->create_user_id=  $this->update_user_id=  Yii::app()->user->id;
                        
         }

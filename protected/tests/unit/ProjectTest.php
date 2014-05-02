@@ -22,17 +22,30 @@ class ProjectTest extends CDbTestCase
         $newProject->setAttributes(array(
             'name'=>$newProjectName,
             'description'=>'This is a test for new project creation',
-            'createTime'=>'2009-09-09 00:00:00',
-            'create_user'=>'1',
-            'update_time'=>'2009-09-09 00:00:00',
-            'update_user'=>'1',
+//            'createTime'=>'2009-09-09 00:00:00',
+//            'create_user'=>'1',
+//            'update_time'=>'2009-09-09 00:00:00',
+//            'update_user'=>'1',
         )
     );
-        $this->assertTrue($newProject->save(false));
-        //READ back the newly created project to ensure the creation worked
-        $retrievedProject = Project::model()->findByPk($newProject->id);
+        //set the application user id to the first user in our users fixture data
+        Yii::app()->user->setId($this->users('user1')->id);
+        //save the new project, triggering attribute validation
+        $this->assertTrue($newProject->save());
+        
+        //READ back the newly created Project to ensure the creation worked
+        $retrievedProject=Project::model()->findByPk($newProject->id);
         $this->assertTrue($retrievedProject instanceof Project);
-        $this->assertEquals($newProjectName,$retrievedProject->name);       
+        $this->assertEquals($newProjectName,$retrievedProject->name);
+        //ensure the user associated with creating the new project is the same as the applicaiton user we set
+        //when saving the project
+        $this->assertEquals(Yii::app()->user->id, $retrievedProject->create_user_id);
+        
+//        $this->assertTrue($newProject->save(false));
+//        //READ back the newly created project to ensure the creation worked
+//        $retrievedProject = Project::model()->findByPk($newProject->id);
+//        $this->assertTrue($retrievedProject instanceof Project);
+//        $this->assertEquals($newProjectName,$retrievedProject->name);       
     }
     
     public function testRead()
