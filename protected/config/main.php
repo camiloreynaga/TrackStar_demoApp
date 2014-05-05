@@ -8,6 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'TrackStar',
+        'theme'=>'shadow_dancer',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -80,6 +81,10 @@ return array(
 				*/
 			),
 		),
+                'authManager'=>array(
+                'class'=>'CDbAuthManager',
+                'connectionID'=>'db'
+                ),
 	),
 
 	// application-level parameters that can be accessed
@@ -88,4 +93,5 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
 	),
+        
 );
