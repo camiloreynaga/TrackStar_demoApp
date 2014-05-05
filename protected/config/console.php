@@ -11,8 +11,15 @@ return array(
 
 	// application components
 	'components'=>array(
-		'db'=>array(
-			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
+//		'db'=>array(
+//			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
+//		),
+            'db'=>array(
+			'connectionString' => 'mysql:host=localhost;dbname=trackstar_dev',
+			'emulatePrepare' => true,
+			'username' => 'root',
+			'password' => 'adonde',
+			'charset' => 'utf8',
 		),
 		// uncomment the following to use a MySQL database
 		/*
@@ -33,5 +40,9 @@ return array(
 				),
 			),
 		),
+                'authManager'=>array(
+                'class'=>'CDbAuthManager',
+                'connectionID'=>'db'
+                ),
 	),
 );
