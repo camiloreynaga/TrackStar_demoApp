@@ -26,7 +26,6 @@ class Controller extends CController
         * This method is used by the 'accessControl' filter.
         * @return array access control rules
         */
-        
         public function accessRules() {
             return array(
                 array('allow', // allow all users to perform 'index' and 'view' actions
@@ -40,7 +39,7 @@ class Controller extends CController
                     'users'=>array('@'),
                     ),
                 array('allow',//allow admin user to perform 'ádmin' actions
-                    'controller'=>array('admin','delete'),
+                    'controllers'=>array('admin','delete'),
                     'actions'=>array('admin','delete'),
                     'users'=>array('admin'),
                     ),

@@ -8,7 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'TrackStar',
-        'theme'=>'shadow_dancer',
+        'theme'=>'abound',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -81,10 +81,10 @@ return array(
 				*/
 			),
 		),
-                'authManager'=>array(
-                'class'=>'CDbAuthManager',
-                'connectionID'=>'db'
-                ),
+//                'authManager'=>array(
+//                'class'=>'CDbAuthManager',
+//                'connectionID'=>'db'
+//                ),
 	),
 
 	// application-level parameters that can be accessed

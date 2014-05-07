@@ -1,6 +1,6 @@
 <?php
 
-class ProjectController extends Controller
+class ProjectController extends Controller// Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -19,6 +19,7 @@ class ProjectController extends Controller
 		);
 	}
 
+      
 	
 
 	/**
